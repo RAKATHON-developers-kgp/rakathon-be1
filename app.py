@@ -90,11 +90,12 @@ URL = os.getenv('URL')
 USER = os.getenv('USER')
 PASSWORD = os.getenv('PASSWORD') 
 
+url = "http://localhost:9200"
 def configuration():
 
     es = Elasticsearch(
-        URL,
-        http_auth=(USER, PASSWORD)
+        url,
+        http_auth=('elastic', 'zkEVQNOzi=gG21ZKl*dM')
     )
     return es
 
@@ -129,8 +130,12 @@ async def query(request:Request):
     print(type(must_params), 'jajajaja')
 
     limit = json.loads(request1.get('limit', '0'))
-    offset = json.loads(request1.get('offset', '10'))
+    offset = (request1.get('offset', '10'))
     print((offset))
+    if offset != '':
+        offset = json.loads(offset)
+    else:
+        offset = 5
 
     # if offset == '10':
     #     offset = 10

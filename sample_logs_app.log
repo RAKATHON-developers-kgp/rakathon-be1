@@ -1,12 +1,37 @@
-2022-07-22 16:53:00,951 uvicorn.error INFO:Started server process [78709]
-2022-07-22 16:53:00,951 uvicorn.error INFO:Waiting for application startup.
-2022-07-22 16:53:00,951 uvicorn.error INFO:Application startup complete.
-2022-07-22 16:53:53,993 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-22 16:54:10,554 root INFO:endpoint: '/input_name' , added name succesfully
-2022-07-22 16:54:12,885 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-22 16:54:20,535 root INFO:endpoint: '/delete_data' , deleted name succesfully
-2022-07-22 16:54:22,716 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-22 17:14:10,225 uvicorn.error INFO:Shutting down
-2022-07-22 17:14:10,329 uvicorn.error INFO:Waiting for application shutdown.
-2022-07-22 17:14:10,331 uvicorn.error INFO:Application shutdown complete.
-2022-07-22 17:14:10,331 uvicorn.error INFO:Finished server process [78709]
+2022-07-23 02:55:13,258 uvicorn.error INFO:Started server process [26788]
+2022-07-23 02:55:13,259 uvicorn.error INFO:Waiting for application startup.
+2022-07-23 02:55:13,259 uvicorn.error INFO:Application startup complete.
+2022-07-23 03:03:07,001 elasticsearch INFO:GET http://localhost:9200/ [status:200 request:0.142s]
+2022-07-23 03:03:07,011 elasticsearch INFO:POST http://localhost:9200/app.logs-*/_search [status:200 request:0.008s]
+2022-07-23 03:03:15,832 elasticsearch INFO:GET http://localhost:9200/ [status:200 request:0.024s]
+2022-07-23 03:03:15,876 elasticsearch INFO:POST http://localhost:9200/app.logs-*/_search [status:200 request:0.043s]
+2022-07-23 03:04:16,777 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-23 03:04:24,529 root INFO:endpoint: '/input_name' , added name succesfully
+2022-07-23 03:04:25,487 root INFO:endpoint: '/input_name' , added name succesfully
+2022-07-23 03:04:26,565 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-23 03:04:32,734 root INFO:endpoint: '/delete_data' , deleted name succesfully
+2022-07-23 03:04:34,099 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-23 03:04:39,605 root INFO:endpoint: '/delete_data' , deleted name succesfully
+2022-07-23 03:04:40,856 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-23 03:04:43,731 root INFO:endpoint: '/delete_data' , deleted name succesfully
+2022-07-23 03:04:46,082 root INFO:endpoint: '/delete_data' , deleted name succesfully
+2022-07-23 03:04:47,537 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-23 03:04:53,321 root INFO:endpoint: '/delete_data' , deleted name succesfully
+2022-07-23 03:04:55,909 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-23 03:22:56,890 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-23 03:27:06,937 elasticsearch INFO:GET http://localhost:9200/ [status:200 request:0.130s]
+2022-07-23 03:27:06,945 elasticsearch INFO:POST http://localhost:9200/app.logs-*/_search [status:200 request:0.008s]
+2022-07-23 03:27:15,717 elasticsearch INFO:GET http://localhost:9200/ [status:200 request:0.012s]
+2022-07-23 03:27:15,730 elasticsearch INFO:POST http://localhost:9200/app.logs-*/_search [status:200 request:0.013s]
+2022-07-23 03:27:25,781 elasticsearch INFO:GET http://localhost:9200/ [status:200 request:0.019s]
+2022-07-23 03:27:25,806 elasticsearch INFO:POST http://localhost:9200/app.logs-*/_search [status:200 request:0.025s]
+2022-07-23 03:27:39,941 elasticsearch INFO:GET http://localhost:9200/ [status:200 request:0.013s]
+2022-07-23 03:27:39,978 elasticsearch INFO:POST http://localhost:9200/app.logs-*/_search [status:200 request:0.035s]
+2022-07-23 03:30:27,757 elasticsearch INFO:GET http://localhost:9200/ [status:200 request:0.028s]
+2022-07-23 03:30:27,803 elasticsearch INFO:POST http://localhost:9200/app.logs-*/_search [status:200 request:0.045s]
+2022-07-23 03:30:35,608 elasticsearch INFO:GET http://localhost:9200/ [status:200 request:0.015s]
+2022-07-23 03:30:35,620 elasticsearch INFO:POST http://localhost:9200/app.logs-*/_search [status:200 request:0.011s]
+2022-07-23 03:31:33,078 uvicorn.error INFO:Shutting down
+2022-07-23 03:31:33,182 uvicorn.error INFO:Waiting for application shutdown.
+2022-07-23 03:31:33,183 uvicorn.error INFO:Application shutdown complete.
+2022-07-23 03:31:33,183 uvicorn.error INFO:Finished server process [26788]

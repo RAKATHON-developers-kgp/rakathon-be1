@@ -1,0 +1,8 @@
+2022-07-22 11:18:44,829 uvicorn.error INFO:Started server process [42973]
+2022-07-22 11:18:44,830 uvicorn.error INFO:Waiting for application startup.
+2022-07-22 11:18:44,830 uvicorn.error INFO:Application startup complete.
+2022-07-22 11:18:57,050 root INFO:endpoint: '/input_name' , added name succesfully
+2022-07-22 11:19:15,363 uvicorn.error INFO:Shutting down
+2022-07-22 11:19:15,466 uvicorn.error INFO:Waiting for application shutdown.
+2022-07-22 11:19:15,467 uvicorn.error INFO:Application shutdown complete.
+2022-07-22 11:19:15,467 uvicorn.error INFO:Finished server process [42973]
